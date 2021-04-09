@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 40px 80px;
+}
+
+section h3{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+section .add{
+    background-color: #2a9d8f;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: white;
+}
+
+section table{
+    border-collapse: collapse;
+    margin-top: 15px;    
+    width: 100%;
+}
+
+section table thead tr{
+    background-color: #2a9d8f;
+    text-align: left;
+    color: white;
+}
+
+section table th, section table td{
+    padding: 15px;
+}
+
+section table tbody tr{
+    border-bottom: 1px solid #ced4da;
+}
+
+section table tbody tr:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+section table tbody tr td a{
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: white;
+}
+
+section table tbody tr .name{
+    width: 20%;
+}
+
+section table tbody tr .price{
+    width: 10%;
+}
+
+section table tbody tr .action{
+    width: 20%;
+}
+
+section table tbody tr td .show{
+    background-color: #219ebc;
+}
+
+section table tbody tr td .edit{
+    background-color: #f4a261;
+}
+
+section table tbody tr td .remove{
+    background-color: #e63946;
+}
